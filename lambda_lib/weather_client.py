@@ -50,10 +50,10 @@ class WeatherClient:
                 formatted_forecasts.append(forecast)
             except KeyError as e:
                 print(str(e))
-                print('Unable to parse forecast keys, skipping forecast')
+                print('Unable to parse keys, skipping forecast')
             except Exception as e:
                 print(str(e))
-                print('Unable to format forecast, skipping forecast')
+                print('Unable to format, skipping forecast')
 
         return json.dumps({'city_name': city_name, 'forecasts': formatted_forecasts})
 
