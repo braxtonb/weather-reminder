@@ -18,7 +18,7 @@ After the impact Hurricane Ida had on the United States' east coast, I thought i
 
 ## Setup
 
-*AWS*
+**AWS**
 
 * Configure the [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 * [Verify email addresses to send/receive email while in sandbox mode](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-email-addresses.html)
@@ -27,7 +27,7 @@ After the impact Hurricane Ida had on the United States' east coast, I thought i
 * Provide values for all environment variables mentioned in `.env.template` to the lambda function
 * [Configure AWS Eventbridge to trigger the lambda function](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-run-lambda-schedule.html)
 
-*Local*
+**Local**
 
 * Setup a virtual environment, `python3 -m venv .venv`
 * Run `pip install -r requirements.txt` to install dependencies
