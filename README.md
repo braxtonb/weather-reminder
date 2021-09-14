@@ -6,7 +6,7 @@ After the impact Hurricane Ida had on the United States' east coast, I thought i
 
 ## Example
 
-<img src="./media/2021_09_13_weather_emails.jpg" alt="Weather email example" width="200px" />
+<img src="./media/2021_09_13_weather_emails.jpg" alt="Weather email example" width="350px" />
 
 ## Setup
 
