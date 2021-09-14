@@ -1,0 +1,1 @@
+aws lambda update-function-code --function-name weather-reminder --zip-file fileb://weather-reminder.zip

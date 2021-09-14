@@ -1,0 +1,6 @@
+.venv
+notes
+weather-reminder
+*.zip
+
+.DS_Store
